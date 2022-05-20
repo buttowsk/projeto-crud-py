@@ -136,3 +136,5 @@ while encerramento == 1:
         alterar(usuario, pesquisa)
     else:
         print("Digite uma opção válida!!!")
+        
+        
