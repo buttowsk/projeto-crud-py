@@ -15,7 +15,7 @@ class Usuario:
 
 def cadastrar(self):
     self.dados.clear()
-    self.id = str(random.randint(1,999999))
+    self.id = str(random.randint(1,9999))
     self.nome = input("Digite seu nome: ")
     self.email = input("Digite seu email: ")     
     self.telefone = input("Digite seu telefone: ")
