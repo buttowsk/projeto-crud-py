@@ -1,2 +1,2 @@
 # projeto-crud-py
-Algoritmo feito para treinar habilidades em python
+Algoritmo feito para atender as necessidades de uma lista de requisitos.
