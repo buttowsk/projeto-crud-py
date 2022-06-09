@@ -114,12 +114,12 @@ def alterar(self, id):
 usuario = input("Digite qualquer coisa para continuar: ")
 print(f"Bem-vindo!")
 usuario = Usuario()
-encerramento = 1
-while encerramento == 1:
+encerramento = true
+while encerramento:
     print("0 Para sair do sistema \n1 Para cadastrar um usuário \n2 Para consultar um usuário pelo ID \n3 Para listar todos os nomes cadastrados \n4 Para deletar um usuário pelo ID \n5 Para alterar um dado de um usuário ID.")
     opcao = input("O que deseja fazer? ")
     if opcao == '0':
-        encerramento = '1'
+        encerramento = false
         print("Você escolheu sair. Fechando o programa...")
     elif opcao == '1':
         cadastrar(usuario)
